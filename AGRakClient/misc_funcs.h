@@ -1,0 +1,11 @@
+void onFootUpdateAtNormalPos();
+void spectatorUpdate();
+int sampConnect();
+void sampDisconnect();
+void sampRequestClass();
+void sampSpawn();
+void sendChat(char* szMessage);
+void sendServerCommand(const char* szCommand);
+void sendDialogResponse(WORD wDialogID, BYTE bButtonID, WORD wListBoxItem, const char* szInputResp);
+int gen_gpci(char buf[64], unsigned long factor);
+void gen_auth_key(char buf[260], char* auth_in);

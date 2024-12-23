@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{7288c5cc-9bfd-40d2-bcfd-0ced3f05c4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{8e6dca27-2ee2-400a-9181-168f98aea249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AGRaknet">
+      <UniqueIdentifier>{31f4fed9-4768-4b7c-8238-185a02f6f68d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AGRaknet\SAMP">
+      <UniqueIdentifier>{dca387dd-86c4-44e3-8362-71bd2e575c4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlsets.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="netrpc.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="resource.h">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="misc_funcs.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="localplayer.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="netgame.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="math_stuff.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="cmds.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\_findfirst.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\AsynchronousFileIO.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\BitStream.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\BitStream_NoTemplate.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\CheckSum.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\CommandParserInterface.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\DataBlockEncryptor.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\DataCompressor.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\DS_ByteQueue.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\DS_HuffmanEncodingTree.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\DS_Table.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\EncodeClassName.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\ExtendedOverlappedPool.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\FileOperations.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\GetTime.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\InternalPacketPool.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\LinuxStrings.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\LogCommandParser.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\NetworkTypes.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\PluginInterface.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\RakClient.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\RakNetCommandParser.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\RakNetStatistics.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\RakNetworkFactory.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\RakPeer.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\rakserver.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\RakSleep.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\Rand.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\ReliabilityLayer.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\rijndael.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\RPCMap.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\samp_netencr.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\SHA1.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\SimpleMutex.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\SocketLayer.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\StringCompressor.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\StringTable.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\SystemAddressList.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\SystemDatabaseClient.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\SystemDatabaseServer.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\TableSerializer.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\TCPInterface.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\TelnetTransport.cpp">
+      <Filter>AGRaknet</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\SAMP\samp_auth.cpp">
+      <Filter>AGRaknet\SAMP</Filter>
+    </ClCompile>
+    <ClCompile Include="AGRaknet\SAMP\SAMPRPC.cpp">
+      <Filter>AGRaknet\SAMP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tinyxml\tinystr.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlsets.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="netrpc.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="misc_funcs.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="localplayer.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="netgame.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="math_stuff.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="cmds.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\_findfirst.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\AsynchronousFileIO.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\AutopatcherPatchContext.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\AutopatcherRepositoryInterface.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\BigTypes.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\BitStream.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\BitStream_NoTemplate.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\CheckSum.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\ClientContextStruct.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\CommandParserInterface.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\ConsoleServer.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DataBlockEncryptor.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DataCompressor.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_BinarySearchTree.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_BPlusTree.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_ByteQueue.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_Heap.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_HuffmanEncodingTree.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_HuffmanEncodingTreeNode.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_LinkedList.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_List.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_Map.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_MemoryPool.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_OrderedChannelHeap.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_OrderedList.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_Queue.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_QueueLinkedList.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_RangeList.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_Table.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_Tree.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\DS_WeightedGraph.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\EmailSender.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\Export.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\ExtendedOverlappedPool.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\FileOperations.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\FullyConnectedMesh.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\GetTime.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\InternalPacket.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\InternalPacketPool.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\LinuxStrings.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\LogCommandParser.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\MTUSize.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\multiplayer.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\NetworkIDGenerator.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\NetworkTypes.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\PacketEnumerations.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\PacketPool.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\PacketPriority.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\PluginInterface.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakAssert.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakClient.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakClientInterface.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakNetCommandParser.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakNetDefines.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakNetStatistics.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakNetworkFactory.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakPeer.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakPeerInterface.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakServer.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakServerInterface.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RakSleep.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\Rand.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\ReliabilityLayer.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\Replica.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\ReplicaEnums.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\rijndael.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\rijndael-boxes.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RouterInterface.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RPCMap.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RPCNode.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\RSACrypt.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\samp.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\samp_netencr.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\SHA1.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\SimpleMutex.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\SimpleTCPServer.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\SingleProducerConsumer.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\SocketLayer.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\StringCompressor.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\StringTable.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\SystemAddressList.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\SystemDatabaseClient.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\SystemDatabaseServer.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\TableSerializer.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\TCPInterface.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\TelnetTransport.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\ThreadPool.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\TransportInterface.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\Types.h">
+      <Filter>AGRaknet</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\SAMP\samp_auth.h">
+      <Filter>AGRaknet\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\SAMP\SAMP_VER.h">
+      <Filter>AGRaknet\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="AGRaknet\SAMP\SAMPRPC.h">
+      <Filter>AGRaknet\SAMP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AGRaknet\FullyConnectedMesh.cpp__">
+      <Filter>AGRaknet</Filter>
+    </None>
+    <None Include="AGRaknet\NetworkIDGenerator.cpp__">
+      <Filter>AGRaknet</Filter>
+    </None>
+  </ItemGroup>
+</Project>
