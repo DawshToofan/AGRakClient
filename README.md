@@ -27,7 +27,7 @@ To use AGRakClient, follow these steps:
 
 ## Donations
 If you find this tool helpful and would like to support its development, consider making a donation:  
-[Support AGRakClient](#https://reymit.ir/dawshtoofan)  
+[Support AGRakClient](https://reymit.ir/dawshtoofan)
 
 Thank you for using AGRakClient!
 
