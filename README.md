@@ -25,6 +25,9 @@ To use AGRakClient, follow these steps:
 
 4. Run the `AGRakClient.exe` file, and the application will automatically use the provided configuration to connect to the Arsacia Game server.
 
+## Donations
+If you find this tool helpful and would like to support its development, consider making a donation:  
+[Support AGRakClient](#https://reymit.ir/dawshtoofan)  
 
 Thank you for using AGRakClient!
 
