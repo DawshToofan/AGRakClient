@@ -115,6 +115,8 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 		
 		if (!whileCounter) whileCounter = 20;
 		else --whileCounter;
+
+		Sleep(30);
 	}
 
 	if (flLog != NULL)
