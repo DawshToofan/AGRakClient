@@ -39,7 +39,7 @@ Thank you for using AGRakClient!
 
 <a id="farsi_lang_readme"></a>
 
-# کلاینت AGRak
+# AGRakClient
 
 کلاینت **AGRakClient** ابزاری برای اتصال به سرور SA-MP (بازی آنلاین San Andreas Multiplayer) **Arsacia Game** می‌باشد. این برنامه فرایند ورود را ساده می‌کند و تجربه کاربری را بهبود می‌بخشد. این نرم‌افزار بصورت انحصاری برای سرور Arsacia Game ارایه شده است.
 
