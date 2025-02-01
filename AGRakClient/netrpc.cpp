@@ -206,21 +206,17 @@ void ScrDialogBox(RPCParameters* rpcParams)
 	sampDialog.szButton2[sampDialog.bButton2Len] = 0;
 
 	stringCompressor->DecodeString(sampDialog.szInfo, 256, &bsData);
-	if (client.dialogid == 8586)
+	if (client.dialogid == 1)
 	{
 		sampSpawn();
 		sendDialogResponse(client.dialogid, 1, 0, "");
 	}
-	else if (client.dialogid == 8426)
-	{
-		sendDialogResponse(client.dialogid, 1, 0, "");
-	}
-	else if (client.dialogid == 12346)
+	else if (client.dialogid == 2)
 	{
 		sendDialogResponse(client.dialogid, 1, 0, settings.userPassword);
 		Log("[%s] Login request has been sent.", client.nickName);
 	}
-	else if (client.dialogid == 12347)
+	else if (client.dialogid == 3)
 	{
 		Log("[%s] Your password doesn't correct.", client.nickName);
 		sampDisconnect();
